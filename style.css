@@ -4,6 +4,11 @@
     box-sizing:border-box;
 }
 
+.rose{
+    position:absolute;
+    animation:floatUp linear forwards;
+}
+
 :root{
     --pink:#ff4f8b;
     --pink2:#ff7eb3;
