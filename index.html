@@ -3,60 +3,258 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>For My Love ❤️</title>
+<title>Happy Birthday Laasya ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
-
 </head>
+
 <body>
 
-<div class="hearts"></div>
+<!-- Floating Background -->
+<div id="floating-hearts"></div>
 
-<section class="hero">
+<!-- ========================= -->
+<!-- SCREEN 1 : INTRO -->
+<!-- ========================= -->
 
-<h1>❤️ For My Love ❤️</h1>
+<section id="intro-screen" class="screen active">
 
-<p class="subtitle">
-Every moment with you becomes a beautiful memory.
-</p>
+    <div class="intro-content">
 
-<div id="timer"></div>
+        <h2 class="small-title">
+            ✨ A Special Surprise For ✨
+        </h2>
 
-<button onclick="showLove()">
-Click Here ❤️
-</button>
+        <h1 class="main-title">
+            Laasya ❤️
+        </h1>
 
-<div id="loveMessage"></div>
+        <p class="intro-text">
+            Made with lots and lots of love by someone
+            who thinks about you every single day...
+        </p>
 
-</section>
+        <button id="intro-btn" class="primary-btn">
+            Open Surprise ❤️
+        </button>
 
-<section>
-
-<h2>📸 Our Beautiful Memories</h2>
-
-<div class="gallery">
-
-<img src="L1.jpeg">
-<img src="L2.jpeg">
-<img src="L3.jpeg">
-<img src="L4.jpeg">
-<img src="L5.jpeg">
-<img src="L6.jpeg">
-<img src="L7.jpeg">
-<img src="L8.jpeg">
-<img src="L9.jpeg">
-<img src="L10.jpeg">
-<img src="L11.jpeg">
-<img src="L13.jpeg">
-<img src="L14.jpeg">
-
-</div>
+    </div>
 
 </section>
 
-<footer>
-Made with ❤️ by Isaac
-</footer>
+<!-- ========================= -->
+<!-- SCREEN 2 : BIRTHDAY -->
+<!-- ========================= -->
+
+<section id="birthday-screen" class="screen">
+
+    <div class="birthday-content">
+
+        <h1 class="birthday-heading">
+            🎂 HAPPY BIRTHDAY 🎂
+        </h1>
+
+        <h2 class="birthday-name">
+            MY LOVE LAASYA ❤️
+        </h2>
+
+        <p class="birthday-subtitle">
+            Before you continue...
+            <br>
+            There is something Isaac wants to tell you.
+        </p>
+
+        <button id="birthday-btn" class="primary-btn">
+            Continue ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- SCREEN 3 : ENVELOPE -->
+<!-- ========================= -->
+
+<section id="envelope-screen" class="screen">
+
+    <div class="envelope-wrapper">
+
+        <h2 class="section-heading">
+            ✉️ A Letter For My Birthday Girl ✉️
+        </h2>
+
+        <div class="envelope-container">
+
+            <div id="envelope" class="envelope">
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-body"></div>
+
+                <div class="seal">
+                    ❤️
+                </div>
+
+            </div>
+
+        </div>
+
+        <p class="tap-text">
+            Tap the envelope to open it
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- SCREEN 4 : CELEBRATION -->
+<!-- ========================= -->
+
+<section id="celebration-screen" class="screen">
+
+    <div class="celebration-content">
+
+        <h1 class="celebration-title">
+            🎉 SURPRISE 🎉
+        </h1>
+
+        <h2 class="celebration-subtitle">
+            Happy Birthday My Love ❤️
+        </h2>
+
+        <p class="celebration-text">
+            Let's take a small journey through
+            some beautiful memories...
+        </p>
+
+        <button id="memory-btn" class="primary-btn">
+            Start Journey 📸
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- SCREEN 5 : SLIDESHOW -->
+<!-- ========================= -->
+
+<section id="slideshow-screen" class="screen">
+
+    <div class="slideshow-container">
+
+        <h2 class="section-heading">
+            📸 Memory Lane 📸
+        </h2>
+
+        <img
+            id="slide-image"
+            src="L1.jpeg"
+            alt="Memory"
+        >
+
+        <div id="slide-caption" class="slide-caption">
+            The cutest beginning ❤️
+        </div>
+
+        <button id="letter-btn" class="primary-btn">
+            Read My Letter ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- SCREEN 6 : LETTER PREVIEW -->
+<!-- ========================= -->
+
+<section id="preview-screen" class="screen">
+
+    <div class="preview-card">
+
+        <h2>
+            💌 Dear Laasya
+        </h2>
+
+        <div id="typewriter"></div>
+
+        <button id="full-letter-btn" class="primary-btn">
+            Read Full Letter ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- SCREEN 7 : FULL LETTER -->
+<!-- ========================= -->
+
+<section id="letter-screen" class="screen">
+
+    <div class="letter-card">
+
+        <h1>
+            ❤️ To My Love, Laasya ❤️
+        </h1>
+
+        <div id="full-letter">
+
+            <!--
+            IMPORTANT:
+
+            Your complete birthday message
+            will be inserted here later.
+
+            Leave this empty for now.
+            -->
+
+        </div>
+
+        <button id="final-btn" class="primary-btn">
+            One Last Thing ❤️
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- SCREEN 8 : FINAL -->
+<!-- ========================= -->
+
+<section id="final-screen" class="screen">
+
+    <div class="final-content">
+
+        <h1>
+            Forever Yours ❤️
+        </h1>
+
+        <h2>
+            Isaac
+        </h2>
+
+        <p>
+            Love you more and more,
+            my Laasya ❤️
+        </p>
+
+        <div class="final-heart">
+            ❤️
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Confetti Container -->
+<div id="confetti-container"></div>
 
 <script src="script.js"></script>
 
