@@ -187,11 +187,24 @@ document
         slideInterval
     );
 
-    showScreen(
-        screens.preview
-    );
+showScreen(
+screens.preview
+);
 
-    startTyping();
+document.getElementById(
+"typewriter"
+).innerHTML =
+"Typing... ❤️";
+
+setTimeout(()=>{
+
+document.getElementById(
+"typewriter"
+).innerHTML = "";
+
+startTyping();
+
+},2500);
 
 });
 
@@ -308,10 +321,18 @@ function createHeart(){
     heart.className =
     "floating-heart";
 
-    heart.innerHTML =
-    Math.random() > 0.5
-    ? "❤️"
-    : "💖";
+    const items = [
+"❤️",
+"💖",
+"🌹"
+];
+
+heart.innerHTML =
+items[
+Math.floor(
+Math.random()*items.length
+)
+];
 
     heart.style.left =
     Math.random()*100+"vw";
