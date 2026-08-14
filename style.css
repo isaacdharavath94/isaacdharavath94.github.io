@@ -417,3 +417,9 @@ body{
     padding:20px;
     border-radius:20px;
 }
+.ending-line{
+    margin-top:20px;
+    font-size:1.15rem;
+    line-height:1.8;
+    color:#444;
+}
