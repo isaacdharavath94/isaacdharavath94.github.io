@@ -435,3 +435,25 @@ setTimeout(
     createConfetti,
     1500
 );
+document
+.getElementById("secret-btn")
+.addEventListener("click",()=>{
+
+document
+.getElementById("secret-message")
+.innerHTML =
+
+`
+❤️ I fall for you more and more every day.
+
+And yes...
+
+eat more,
+stay hydrated,
+
+and stop thinking you'll become fat.
+
+You're beautiful exactly the way you are. ❤️
+`;
+
+});
