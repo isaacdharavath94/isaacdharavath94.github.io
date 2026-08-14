@@ -87,6 +87,12 @@ const envelope =
 document.getElementById("envelope");
 
 envelope.addEventListener("click",()=>{
+    const music =
+document.getElementById(
+"bgMusic"
+);
+
+music.play();
 
     envelope.classList.add("open");
 
