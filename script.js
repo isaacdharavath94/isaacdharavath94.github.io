@@ -15,7 +15,8 @@ const photos = [
     "L10.jpeg",
     "L11.jpeg",
     "L13.jpeg",
-    "L14.jpeg"
+    "L14.jpeg",
+    "L12.jpeg"
 ];
 
 const captions = [
