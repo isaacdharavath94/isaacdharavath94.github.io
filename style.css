@@ -407,3 +407,13 @@ body{
         font-size:2.5rem;
     }
 }
+
+#secret-message{
+    margin-top:25px;
+    font-size:1.2rem;
+    line-height:1.8;
+    color:#444;
+    background:rgba(255,255,255,0.8);
+    padding:20px;
+    border-radius:20px;
+}
