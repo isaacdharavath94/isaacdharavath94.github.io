@@ -457,3 +457,13 @@ You're beautiful exactly the way you are. ❤️
 `;
 
 });
+const playBtn = document.getElementById("playMusicBtn");
+
+if(playBtn){
+    playBtn.addEventListener("click", () => {
+        const music = document.getElementById("bgMusic");
+        if(music){
+            music.play();
+        }
+    });
+}
