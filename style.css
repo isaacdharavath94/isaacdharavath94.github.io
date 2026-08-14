@@ -4,8 +4,23 @@
     box-sizing:border-box;
 }
 
+#floating-hearts{
+    position:fixed;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    pointer-events:none;
+    z-index:-1;
+}
+
 .rose{
     position:absolute;
+    animation:floatUp linear forwards;
+}
+
+.floating-heart{
+    position:absolute;
+    color:#ff4f8b;
     animation:floatUp linear forwards;
 }
 
